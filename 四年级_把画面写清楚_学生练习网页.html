@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f4f8ff">
+<title>四年级上册第一单元｜把画面写清楚</title>
+<style>
+:root{--ink:#26354a;--muted:#66758a;--blue:#3678d8;--sky:#eaf3ff;--yellow:#fff4cf;--green:#eaf7ef;--paper:#fff;--line:#dce5f0}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#eaf3ff 0,#f8fbff 360px,#f5f7fb 100%);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;font-size:18px;line-height:1.9}
+.topbar{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:10px 18px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.topbar a,.topbar button{font:inherit;font-size:15px;color:#245da8;text-decoration:none;background:#edf4ff;border:0;border-radius:999px;padding:6px 14px;cursor:pointer}
+.container{width:min(100% - 28px,980px);margin:28px auto 70px}
+.hero{background:linear-gradient(135deg,#397bd7,#66a9ed);color:white;border-radius:26px;padding:34px 32px;box-shadow:0 12px 28px #397bd72b}
+.hero h1{font-size:clamp(27px,4vw,38px);line-height:1.35;margin:0 0 10px}
+.hero p{margin:0;opacity:.96;font-size:17px}
+.student-meta{display:flex;gap:16px;flex-wrap:wrap;margin-top:20px;font-size:16px}
+.student-meta span{border-bottom:1px solid #ffffffa8;min-width:180px;padding:2px 0}
+.tipbox{background:var(--yellow);border:1px solid #f1df9e;border-radius:20px;padding:22px 25px;margin:22px 0}
+.tipbox h2{margin:0 0 10px;font-size:23px}
+.tipbox ol{margin:0;padding-left:1.4em}
+.tipbox li{padding:3px 0}
+.warning{margin-top:12px;font-weight:700;color:#9a5b00}
+h1,h2,h3{color:#24466f}
+h2{font-size:25px;line-height:1.45;margin:0 0 14px}
+h3{font-size:21px;margin:24px 0 8px}
+p{margin:10px 0}
+.container>h1{font-size:28px}
+.container>h2{font-size:25px}
+.container>h3{font-size:21px}
+/* Each training section reads like a separate task card. */
+.container>h2, .container>h3{scroll-margin-top:90px}
+.container>h2{background:#eaf3ff;border-left:6px solid var(--blue);padding:12px 18px;border-radius:12px;margin-top:30px}
+.container>h3{background:#f0f7ff;padding:10px 16px;border-radius:12px}
+.container>p{background:#fff;border-radius:12px;padding:12px 16px}
+.write-line{display:block;border-bottom:1.5px solid #aebdce;height:38px;margin:5px 0}
+.section-divider{height:1px;background:linear-gradient(90deg,transparent,#cbd8e8,transparent);margin:30px 0}
+blockquote{margin:14px 0;padding:15px 20px;background:#f6f9fd;border-left:4px solid #8bb7ec;border-radius:10px;color:#3b506b}
+ul,ol{padding-left:1.5em}
+li{padding:3px 0}
+.checkline{background:#f1f8f3!important;border:1px solid #d5ebdc}
+.teacher-wrap{margin-top:42px}
+details{background:#fff;border:1px solid #d9e3ef;border-radius:18px;overflow:hidden;box-shadow:0 5px 18px #26354a0a}
+summary{cursor:pointer;padding:18px 22px;font-size:19px;font-weight:700;color:#245da8;background:#edf4ff;list-style-position:inside}
+.teacher-content{padding:22px}
+.teacher-content h2{font-size:25px;border-left:5px solid #e0a83c;padding-left:14px;margin-top:22px}
+.teacher-content h3{font-size:20px;background:#fff7e5;padding:9px 14px;border-radius:10px}
+.teacher-content p{background:#fff;padding:8px 12px}
+.teacher-content .write-line{display:none}
+.teacher-content table{width:100%;border-collapse:collapse;display:block;overflow-x:auto;font-size:16px}
+.teacher-content td,.teacher-content th{border:1px solid #dbe3ed;padding:9px 12px;min-width:120px}
+.teacher-content tr:first-child{background:#edf4ff;font-weight:700}
+.table-line{font-family:monospace;white-space:pre-wrap;overflow-wrap:anywhere}
+.footer{text-align:center;color:var(--muted);font-size:14px;margin-top:36px}
+@media(max-width:600px){body{font-size:17px}.hero{padding:26px 20px}.student-meta span{min-width:100%;}.tipbox{padding:18px}.container>h2{font-size:22px}}
+@media print{.topbar{display:none}body{background:#fff;font-size:14px}.container{width:100%;margin:0}.hero{box-shadow:none;print-color-adjust:exact}details{break-before:page}details:not([open])>.teacher-content{display:block}}
+</style>
+</head>
+<body>
+<nav class="topbar">
+<a href="#start">回到开头</a><a href="#training">学生练习</a><a href="#teacher">教师参考</a>
+<button onclick="window.print()">打印 / 保存为 PDF</button>
+</nav>
+<main class="container" id="start">
+<header class="hero">
+<h1>四年级上册第一单元<br>把画面写清楚</h1>
+<p>读写练习单 · 让文字变成眼前的画面</p>
+<div class="student-meta"><span>班级：____________</span><span>姓名：____________</span><span>日期：____________</span></div>
+</header>
+<section class="tipbox">
+<h2>🌟 写清楚画面的四招</h2>
+<ol>
+<li><b>按顺序写：</b>从远到近、从上到下，或用上“起先……接着……忽然……一会儿……”。</li>
+<li><b>多感官写：</b>不只写“看到”，还要写颜色、形状、光泽，写听到的声音、闻到的气味、风吹在身上的感觉。</li>
+<li><b>写出变化：</b>静止时什么样？动起来什么样？把动作放慢，一步一步写（慢镜头）。</li>
+<li><b>不用空话：</b>删掉“很美、很漂亮、好看极了”，换成具体的样子；还可以写“像……”。</li>
+</ol>
+<div class="warning">✏️ 小挑战：本次全部练习都不许出现“很美、好看、漂亮”这三个词。</div>
+</section>
+<div id="training"></div>
+<p>**# 四年级上册第一单元 · 把画面写清楚 读写练习单（纯文本版）**</p>
+<p>班级：*__*__________    姓名：*__*__________    日期：*__*__________</p>
+<p></p>
+<p>① 按顺序写：从远到近、从上到下，或用上"起先……接着……忽然……一会儿……"。</p>
+<p>② 多感官写：不只写"看到"，还要写颜色、形状、光泽，写听到的声音、闻到的气味、风吹在身上的感觉。</p>
+<p>③ 写出变化：静止时什么样？动起来什么样？把动作放慢，一步一步写（慢镜头）。</p>
+<p>④ 不用空话：删掉"很美、很漂亮、好看极了"，换成具体的样子；还可以写"像……"。</p>
+<p>※ 本次全部练习都不许出现"很美、好看、漂亮"这三个词。</p>
+<p>**------------------------------------------------------------**</p>
+<p>**## 训练一 · 把一句话写成一段话（跟着提示写）**</p>
+<p>原句：傍晚，天边出现了晚霞，很美。</p>
+<p>想一想再写：晚霞有哪几种颜色？云是什么形状、像什么？云的样子在变吗？地上的房屋、树、行人的脸被照成了什么样？</p>
+<p>任务：把这句话扩写成 3—4 句，让人一读就"看见"那片晚霞。不许用"很美、好看、漂亮"。</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**------------------------------------------------------------**</p>
+<p>**## 训练二 · 给"干瘪文段"补上细节**</p>
+<p>秋天的树林变了样。树叶黄了，风一吹就落下来。地上有很多落叶，踩上去软软的。阳光照进树林里。</p>
+<p>任务：不改变意思，把这段话改写成能让人"看见"的画面。要求：至少加 2 处颜色或形状、1 处声音、1 处叶子飘落的过程（慢镜头），再补 1 处你闻到或摸到的感觉。改完在加得最满意的地方画上波浪线。</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**------------------------------------------------------------**</p>
+<p>**## 训练三 · 读一读，把想象到的画面写下来**</p>
+<p>夏夜，院子里很安静。爷爷靠在竹椅上，手里的蒲扇一下一下地摇。丝瓜架上的叶子一动不动，几根嫩丝瓜垂在半空。忽然一阵风掠过，叶子沙沙地翻了个身，墙角几点萤火虫亮了起来，忽明忽暗，慢慢地飘过篱笆。远处的稻田里，传来一阵接一阵的蛙声。空气里有青草被晒过一天后的气味。</p>
+<p>任务：读两遍，闭上眼睛想一想，然后不照抄原文，用你自己的话写下"我仿佛看到的画面"。按从近到远的顺序写，写清你看到、听到、闻到、感觉到的；也可以加上你在生活中见过的类似情景。</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**------------------------------------------------------------**</p>
+<p>**## 训练四 · 诗句变画面（选做）**</p>
+<p>"双翅一翻，把斜阳掉在江上；头白的芦苇，也妆成一瞬的红颜了。"</p>
+<p>——刘大白《秋晚的江上》（本单元课文）</p>
+<p>任务：不用解释诗句的意思，只把你"看见"的画面写下来：江面是什么颜色？斜阳是怎么"掉"下去的？芦苇原来什么样、忽然变成什么样？把这一瞬间放慢写清楚。</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**------------------------------------------------------------**</p>
+<p>**## 训练五 · 自己独立写（二选一）**</p>
+<p>情境：① 雷雨来临前的操场　② 清晨，校门口的雾</p>
+<p>任务：写 5—8 句，把这个画面写清楚。要求：有顺序、至少写到三种感官、写出从静到动的变化、不许用"很美、好看、漂亮"。</p>
+<p>我选的情境：*__*__________</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**------------------------------------------------------------**</p>
+<p>**## 训练六 · 课文原句变画面（4 句，选做 2—3 句）**</p>
+<p>做法：下面都是本单元课文里的原句。读一读，闭上眼睛想一想，然后不解释意思、不照抄原句，只把你"看见"的画面写下来。每句写 3—5 句，用上开头讲的四招。</p>
+<p>（训练四《秋晚的江上》也是这一类，时间紧可以只做本组。）</p>
+<p>**### 例题 · 老师带着做**</p>
+<p>"浪潮越来越近，犹如千万匹白色战马齐头并进，浩浩荡荡地飞奔而来；那声音如同山崩地裂，好像大地都被震得颤动起来。"</p>
+<p>——课文《观潮》</p>
+<p>任务：先看老师给的示范段，再自己写一遍，不许和示范一样。重点写清由远到近的样子变化和声音的变化。</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**### 练习① · 花牛歌（最容易，先做这句）**</p>
+<p>"花牛在草地里坐，压扁了一穗剪秋罗。花牛在草地里眠，白云霸占了半个天。"</p>
+<p>——徐志摩《花牛歌》（本单元课文）</p>
+<p>想一想：草地是什么颜色、什么气味？花牛是怎么坐下去的（把动作放慢）？被压扁的剪秋罗原来什么样、后来什么样？"白云霸占了半个天"，天上到底是什么样的？花牛睡着时，身边还有没有一点点动静？</p>
+<p>任务：定格"坐下去"和"睡着"两个瞬间，写 3—5 句。</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**### 练习② · 走月亮**</p>
+<p>"细细的溪水，流着山草和野花的香味，流着月光。灰白色的鹅卵石，布满河床。哟，卵石间有多少可爱的小水塘啊，每个小水塘，都抱着一个月亮！"</p>
+<p>——吴然《走月亮》（本单元课文）</p>
+<p>想一想：溪水有多细、怎么流？月光落在水面上是什么样子（碎的？一闪一闪？）？"流着香味"让你闻到了什么？鹅卵石什么形状、摸上去什么感觉？小水塘"抱着"月亮，水面上的月影究竟什么样，风一吹会怎样？</p>
+<p>任务：按"溪水 → 河床 → 小水塘"的顺序写，至少写到看、听、闻、摸中的三种。</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**### 练习③ · 繁星（最难，留到最后）**</p>
+<p>"深蓝色的天空里，悬着无数半明半昧的星。船在动，星也在动，它们是这样低，真是摇摇欲坠呢！"</p>
+<p>——巴金《繁星》（本单元课文）</p>
+<p>想一想："半明半昧"是什么样子？星为什么像"悬"着？船怎么动，星就怎么动（慢慢晃？一上一下？）？"摇摇欲坠"时你担心什么？躺在舱面上，脸上、身上有什么感觉？</p>
+<p>任务：写清"静 → 动"的变化，最后加一句"我好像看见了……"（由实到虚）。</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**------------------------------------------------------------**</p>
+<p>**## 写完后自己打勾**</p>
+<p class='checkline'>□ 我按顺序写了，不是想到哪写到哪</p>
+<p class='checkline'>□ 我写了颜色、形状或光泽，别人能&quot;看见&quot;</p>
+<p class='checkline'>□ 我除了&quot;看到&quot;，还写了声音／气味／触感（至少一种）</p>
+<p class='checkline'>□ 我写了变化，用上了&quot;忽然、一会儿、起先&quot;这类词</p>
+<p class='checkline'>□ 全文没有出现&quot;很美、好看、漂亮&quot;</p>
+<p>同桌互评：从对方的习作里圈出 3 个"让人一看就看见画面"的词语，写在下面：</p>
+<p>**<span class='write-line'></span>**</p>
+<p>**============================================================**</p>
+<p>**# 教师参考：示范文段与讲评要点（可裁去，不必发给学生）**</p>
+<p>示范只用于讲评对比，不要让学生照抄；重点是让学生发现自己原来少了什么。</p>
+<p>**## 学生写得不好，通常是这四类问题**</p>
+<ol>
+<li>只有结论，没有样子（"晚霞很美""树林很漂亮"）→ 禁用这三个词；追问"什么颜色？什么形状？像什么？"逼出具体词。</li>
+</ol>
+<ol>
+<li>没有顺序（东一句西一句）→ 给顺序框架：从远到近／从上到下／先…接着…忽然…。</li>
+</ol>
+<ol>
+<li>只有"看到的"（画面是"哑"的）→ 补声音、气味、风扑在脸上的感觉，至少加两种。</li>
+</ol>
+<ol>
+<li>写成流水账（"我先…然后…最后…"记事情）→ 定格一个瞬间，用"慢镜头"把动作拆开：飘、转、打个旋、贴着地面滑。</li>
+</ol>
+<p>**## 训练一 示范**</p>
+<p>太阳快落山了，天边先洇开一片橘红，往上渐渐变成淡淡的粉紫，最上头还留着一抹没褪尽的青蓝。云被镀上了金边，一团团挤在一起，像刚出锅的棉花糖，边角亮得发白。慢慢地，云被风拉长，散成一条条薄薄的红纱。楼房的白墙、街边的梧桐、放学路上行人的脸，都被染成暖暖的橘色，连手里拎着的塑料袋也泛着光。</p>
+<p>【用到】颜色／形状／光泽；"先…慢慢地…"写变化；从天上写到地上；比喻代替"很美"。</p>
+<p>**## 训练二 示范（对比原文讲评）**</p>
+<p>秋天的树林换了衣裳。银杏叶黄得透亮，像一把把小扇子；枫叶却红得发暗，边角卷了起来。风一吹，叶子先是在枝头抖了抖，接着松了手，打着旋儿往下飘，擦过肩膀，轻轻贴到地上，落得无声无息。地上的叶子一层压着一层，踩上去"沙沙"地陷下去半只脚，一股干草和泥土混在一起的气味冒了上来。阳光从枝叶的缝隙里斜斜地插进来，在地上洒了一地碎金子，风一过，那些光斑也跟着晃。</p>
+<p>【用到】颜色＋形状＋比喻；"先…接着…"慢镜头写飘落；"沙沙"声音；气味与触感；光斑的动静变化。</p>
+<p>**## 训练三 示范**</p>
+<p>竹椅就在我跟前，爷爷的手一下一下地摇着蒲扇，扇面带起的凉风轻轻扫过我的胳膊。头顶丝瓜架的叶子绿得发黑，几根嫩丝瓜垂着，一动不动。忽然，叶子"沙沙"地翻了个身，凉风里带来青草被晒了一天的味道。墙角亮起几点淡绿的光，忽明忽暗，慢慢飘过篱笆，像有人提着小灯在走。再往远看，稻田黑沉沉的一片，蛙声一阵高过一阵，把夜衬得越发安静。</p>
+<p>【用到】从近到远；视觉＋听觉＋嗅觉＋触感四种感官；"忽然"引出由静到动；以声衬静。</p>
+<p>**## 训练四 示范**</p>
+<p>江面原本是暗青色的。一只鸟儿斜着身子飞过，双翅轻轻一翻，夕阳就像被它碰落了似的，一下子跌进江里，水面顿时铺开一大片碎金，红光一直漾到岸边。江边那一丛芦苇，本来顶着一头白花，被这红光一照，穗子一瞬间全变成了淡淡的胭脂色，风一吹，轻轻晃了晃，又慢慢褪回灰白。</p>
+<p>【用到】把"掉"字放慢成一串动作；写清颜色变化（暗青→碎金→胭脂→灰白）；"一瞬间"定格。</p>
+<p>**## 训练五 · 评价量表（可投影使用）**</p>
+<p>评价项 | ★★★ | ★★ | ★</p>
+<p>顺序 | 顺序清楚，一读就能跟上看 | 大体有序，个别句子跳了 | 想到哪写到哪</p>
+<p>看得见 | 有颜色、形状、光泽等 3 处以上具体描写 | 有 1—2 处 | 只有概括的形容词</p>
+<p>感官 | 三种以上感官，画面有声有味 | 两种 | 只有"看到"</p>
+<p>变化 | 静→动过程清楚，有慢镜头 | 写了变化但太快 | 全是静止的</p>
+<p>语言 | 无空话，有 1 处贴切的比喻或拟人 | 无空话 | 出现"很美、好看"</p>
+<p>**------------------------------------------------------------**</p>
+<p>**## 训练六 · 课文原句变画面：示范与讲评要点**</p>
+<p>四句原文均按统编版四年级上册教材核对；如与所用版本个别标点有出入，以课本为准。示范只作讲评对比，不要求学生会写比喻，重点是把诗句／散文里概括的、带修辞的说法，落回具体的样子和动作。</p>
+<p>**### 例题《观潮》· 示范（讲评用）**</p>
+<p>先是在江天相接的地方，浮起一条极细的白线，几乎看不出在动。一眨眼，白线粗了、长了，变成一道横贯江面的白墙，贴着水面朝我推过来。浪头一层压着一层，前排刚塌下去，后排立刻又拱起来，千万个白色的浪尖同时一涌一伏，像无数匹白马扬着鬃毛齐头并进，谁也不肯落后半步。白沫被甩到半空，落成一片细密的水雾。潮头离堤岸还有几十米时，轰隆隆的闷响已经变成山崩一样的巨响，震得耳膜发麻；浪扑上石阶的那一刻，脚下的地面跟着颤了两下，腥凉的水汽一下子扑了满脸，岸上的人不约而同往后退了半步。</p>
+<p>【训练点】由远及近；视觉＋听觉＋触感；声音由闷到炸、浪头前塌后拱的慢镜头；不用"壮观"。</p>
+<p>【提醒】允许保留"像白马"的联想，但必须接着写清浪尖具体怎么动，否则只是把课文换个说法。</p>
+<p>**### 练习①《花牛歌》· 示范**</p>
+<p>草地绿得发亮，一直铺到坡脚下，风里带着青草被太阳晒过的味道。花牛慢慢弯下四条腿，身子往下一沉，屁股稳稳地坐进草里，草叶向两边倒下去，一穗剪秋罗被压得扁扁的，紫红的花瓣贴在泥上，再也翘不起来。它卧下没多久，眼皮就合上了，尾巴也不甩了，只有耳朵偶尔抖一下。头顶上，白云一大团一大团地漫过来，把半个天占得满满的，另一半还是干干净净的蓝，云影子从牛背上慢慢挪过去。</p>
+<p>【训练点】定格瞬间＋慢镜头（弯、沉、坐、倒、贴）；静景写细；用"耳朵偶尔抖一下"反衬安静。</p>
+<p>【易错】写成"花牛很可爱、草地很美"；或写成花牛一整天活动的流水账。</p>
+<p>**### 练习②《走月亮》· 示范**</p>
+<p>溪水窄窄的，浅得能看见底，贴着石头缝细细地淌，几乎听不见声响，只在石头边上绕出一圈一圈的碎光。月亮落进水里，被水纹揉成一片一片的银，随着水一晃一晃。风从坡上下来，带着山草和野花混在一起的清香味，凉凉地贴在小腿上。河床上铺满灰白色的鹅卵石，一个个圆滚滚、滑溜溜的，踩上去凉而硬。石头与石头之间凹下去的地方，积成一个个小水塘，每个水塘里都盛着一轮圆圆的月亮，安安静静地躺着，像被谁轻轻抱住；水面一皱，月影便散成满塘碎银，过一会儿又慢慢圆回来。</p>
+<p>【训练点】溪水→河床→水塘的顺序；看、听、闻、摸四种感官；把"抱着"这个拟人落回实景（盛着、躺着、散开、圆回来）。</p>
+<p>【易错】只把"流着香味""抱着月亮"抄一遍，不写闻到什么、月影什么样。这是本组最关键的一题。</p>
+<p>**### 练习③《繁星》· 示范**</p>
+<p>天是深蓝色的，蓝得发沉，星星密密地悬在上面，一颗亮、一颗暗，忽明忽暗，像有人把碎银撒在绒布上，又像隔着一层薄雾看灯。它们低得好像就在桅杆顶上，伸手就能碰到。船身微微一晃，满天的星便跟着轻轻一斜，缓缓荡回来，再一斜；有几颗晃得厉害，眼看要掉进海里，却又稳稳地停住了。我躺在舱面上，后背贴着被夜露浸凉的木板，海风咸咸地拂过脸，眼睛渐渐模糊起来，那些星星竟像无数萤火虫，绕着我慢慢地飞。</p>
+<p>【训练点】"悬→晃→斜→荡回→要坠又停住"的动静变化；由实到虚（萤火虫）；触感与海风。</p>
+<p>【易错】写成"星星很多很亮"；漏掉"船动星也动"这个关键动态，画面就成了一张静止的照片。</p>
+<p>**### 四句对照表（备课用）**</p>
+<p>原句 | 主要练哪一招 | 学生最容易犯的错</p>
+<p>《观潮》浪潮句 | 顺序＋声音变化＋慢镜头 | 照抄比喻，只喊"壮观、气势磅礴"</p>
+<p>《花牛歌》 | 定格一个瞬间，把静景写细 | 写成一整天活动的流水账</p>
+<p>《走月亮》 | 多感官，把拟人落回实景 | 只重复"流着香味""抱着月亮"，不写具体样子</p>
+<p>《繁星》 | 动静结合，由实到虚 | 漏写"船动星也动"，只写星星多、星星亮</p>
+<p>**------------------------------------------------------------**</p>
+<p>**## 教学建议**</p>
+<ol>
+<li>先说后写：每个文段先让学生闭眼想象、同桌互相"说画面"一分钟，再落笔；说不清的地方就是写不清的地方。</li>
+</ol>
+<ol>
+<li>用对比讲评：把原文（干瘪句）和示范段并排投影，让学生圈出"示范多了什么"，比直接讲方法更有效。</li>
+</ol>
+<ol>
+<li>一次只练一招：能力弱的班级可分课时做——第一节只练"删掉很美、补颜色和形状"，第二节只练"补声音和气味"，第三节练"慢镜头写变化"，最后再合起来独立写。</li>
+</ol>
+<ol>
+<li>词句银行：黑板积累可用的具体词（颜色：橘红、暗青、灰白、金边；动作：抖、旋、贴、掠、洇开、漾；声音：沙沙、簌簌、哗啦），学生写不出来时可直接取用。</li>
+</ol>
+<ol>
+<li>迁移单元课文：《观潮》学"由远及近＋声音变化"，《走月亮》学"多感官＋边走边看"，《繁星》学"由实到虚的想象"，可作为讲评时的例子回扣。</li>
+</ol>
+<ol>
+<li>训练六的使用顺序：建议按《花牛歌》→《走月亮》→《观潮》→《繁星》做，先易后难；《观潮》句可当例题全班共做，其余三句分组选做。讲评时把"原句"和"示范段"并排投影，只问一句："示范比原句多了什么？"让学生自己圈出颜色、动作、声音、感觉，比讲方法更有效。</li>
+</ol>
+<ol>
+<li>课时安排参考：训练一—三用 1 课时，训练四／六（原句变画面）用 1 课时，训练五独立写＋互评用 1 课时；能力弱的班级可把训练六拆成两课时，一次只做两句。</li>
+</ol>
+
+<div class="footer">慢慢观察，认真想象，把你看到的画面写出来！</div>
+</main>
+</body>
+</html>
